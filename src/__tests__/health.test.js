@@ -1,4 +1,4 @@
-import showHealth from '../index';
+import showHealth from '../health';
 
 test('should show critical state', () => {
   const result = showHealth({ name: 'Олень', health: 10 });
